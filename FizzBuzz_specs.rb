@@ -7,4 +7,3 @@ describe FizzBuzz do
   			fizzbuzz.pintar(1).must_equal "1"
   end
 end
-
