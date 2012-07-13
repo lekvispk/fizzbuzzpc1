@@ -14,6 +14,8 @@ class FizzBuzz
 		resultado = ""
 		if numero % 3 == 0
 			resultado = "fizz"
+		elsif  numero % 5 == 0
+			resultado = "buzz"
 		else 
 			resultado = "#{numero}"
 		end		
