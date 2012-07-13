@@ -29,4 +29,8 @@ it "#devuelve cuando envio el numero 5" do
   			fizzbuzz.pintar(5).must_equal "12fizz4buzz"
   end
 
+it "#devuelve cuando envio el numero 14" do 
+  			fizzbuzz = FizzBuzz.new
+  			fizzbuzz.pintar(14).must_equal "12fizz4buzzfizz78fizzbuzz11fizz1314"
+  end
 end
